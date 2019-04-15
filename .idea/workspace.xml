@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9734c45-dfa5-489f-b1a0-9adcefc1097e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/application/controllers/Inscribir.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Inscribir.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigos/9916388.png" beforeDir="false" afterPath="$PROJECT_DIR$/codigos/9916388.png" afterDir="false" />
-    </list>
+    <list default="true" id="e9734c45-dfa5-489f-b1a0-9adcefc1097e" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -290,12 +287,12 @@
       <workItem from="1542030807313" duration="24000" />
       <workItem from="1542033487451" duration="50000" />
       <workItem from="1542033562377" duration="8001000" />
-      <workItem from="1555285285907" duration="5775000" />
+      <workItem from="1555285285907" duration="6202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142328000" />
+    <option name="totallyTimeSpent" value="142755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
