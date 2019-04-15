@@ -7,7 +7,7 @@ class Inscribir extends CI_Controller {
 
     public function index()
     {
-        if($_SESSION['ci']!="4079598"){
+        if($_SESSION['ci']==""){
             header("Location: ".base_url());
         }
         $data['css']="
@@ -240,9 +240,9 @@ class Inscribir extends CI_Controller {
         $pdf->SetFont('Arial','',9);
         $pdf->Cell(30,0,utf8_decode($personal));
 
-        $pdf->Ln(5);
+        $pdf->Ln(4);
         $pdf->SetFont('Arial','B',9);
-        $pdf->Cell(25,0,utf8_decode('Por concepto inscripción a CISAISI 2018'));
+        $pdf->MultiCell(0,4,utf8_decode('Por concepto inscripción XIII JORNADAS ACADEMICAS'));
 
         barcode('codigos/'.$ciestudiante.'.png', $ciestudiante, 20, 'horizontal', 'code128', true);
         $pdf->Image('codigos/'.$ciestudiante.'.png',17,59,50,0,'PNG');

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 15-04-2019 a las 03:50:37
+-- Tiempo de generación: 15-04-2019 a las 04:03:47
 -- Versión del servidor: 10.1.38-MariaDB
 -- Versión de PHP: 7.3.2
 
@@ -4779,7 +4779,8 @@ CREATE TABLE `monto` (
 --
 
 INSERT INTO `monto` (`idmonto`, `fecha`, `ci`, `monto`) VALUES
-(1, '2019-04-14 21:44:05', '4079598', 30);
+(1, '2019-04-14 21:44:05', '4079598', 30),
+(2, '2019-04-14 21:52:27', '4079598', 0);
 
 -- --------------------------------------------------------
 
@@ -4812,6 +4813,7 @@ CREATE TABLE `personal` (
 
 INSERT INTO `personal` (`ci`, `nombre`, `celular`) VALUES
 ('1010', 'Ing. Urena Merida Gregorio Fernando', 'sn'),
+('2020', 'TEO', '2020'),
 ('4079598', 'Sherly Ramirez', '69602042'),
 ('7336199', 'Adimer Paul Chambi Ajata', '69603027');
 
@@ -4864,6 +4866,7 @@ CREATE TABLE `usuario` (
 
 INSERT INTO `usuario` (`ci`, `user`, `password`, `tipo`) VALUES
 ('1010', 'urena', '123456', 'ADMIN'),
+('2020', 'TEO', '123456', 'ESTUDIANTE'),
 ('4079598', 'sramirez', '123456', 'ESTUDIANTE'),
 ('7336199', 'adimer', '123456', 'ADMIN');
 
@@ -4996,7 +4999,7 @@ ALTER TABLE `menu`
 -- AUTO_INCREMENT de la tabla `monto`
 --
 ALTER TABLE `monto`
-  MODIFY `idmonto` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `idmonto` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- Restricciones para tablas volcadas
